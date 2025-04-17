@@ -1,0 +1,1 @@
+We will have two main files, in python, compiled to exe using pyinstaller. One will scan the path of a number, while another will quickly skip through numbers to find higher and higher numbers in hope to find a number that loops to itself. We will compile to exe as it is faster.
