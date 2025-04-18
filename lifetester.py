@@ -16,5 +16,7 @@ if len(sys.argv)>1:
     ending=int(sys.argv[1])
 
 
+print("[",end="")
 for i in range(1,ending):
-    print(f"{i} survives {checklife(i)}")
+    print(f"({i},{checklife(i)})",end=",")
+print("(0,0)]")
